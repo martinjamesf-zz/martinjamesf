@@ -28,6 +28,7 @@ export default ({ data }) => (
         <div className="sheet__gallery">
           <Img fluid={data.datoCmsWork.coverImage.fluid} />
         </div>
+        <PrimaryButton>Click me</PrimaryButton>
       </div>
     </article>
   </Layout>
